@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(34, 34, 34);
+    /*color = cor da fonte dentro do container em referência.*/
+    color: white;
+    /*font family = escolha da fonte dos conteúdos de dentro do parágrafo.*/
+    font-family: poppinsregular;
+    /*máximo tamanho que o container vai assumir, ainda quando for dado um zoom out na pagina*/
+    max-width: 1200px;
+    /*margens internas do próprio container*/    
+    margin: 0 auto;
+    /*margens do container quando estiver sem utilizar o max-width*/
+    padding: 30px;
+}
+
+header{
+    display: flex;
+}
+
+/*parei no: 23:29 min do video*/
