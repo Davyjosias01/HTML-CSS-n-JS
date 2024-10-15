@@ -14,6 +14,77 @@ body{
 
 header{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/*parei no: 23:29 min do video*/
+#title{
+    flex-direction: column;
+    flex-direction: row;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(132, 14, 201);
+    transition: 0.5s all;
+}
+
+#sobre-btn{
+    border: 2px ;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+    max-width: 1200px;
+
+}
+
+span{
+    color: rgb(132, 14, 201);
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+
+img{
+    width: 620px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 25px;
+    border-radius: 20px;
+    max-width: 350px;
+    margin: 10px;
+    padding: 10px;
+}
